@@ -1,0 +1,18 @@
+{
+  "name": "firstproject",
+  "version": "1.0.0",
+  "description": "First project nodejs",
+  "main": "index.js",
+  "dependencies": {
+    "jquery": "^3.2.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "i don't know"
+  },
+  "keywords": [
+    "nodejs"
+  ],
+  "author": "anhld",
+  "license": "ISC"
+}
