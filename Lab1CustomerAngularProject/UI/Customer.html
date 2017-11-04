@@ -8,7 +8,7 @@
         Code:
         <input type="text" formControlName="CustomerCodeControl" [(ngModel)]="CurrentCustomer.CustomerCode">
         <br />
-        <br />
+        <br /> 
         <div [hidden]="!(CurrentCustomer.formGroup.controls['CustomerCodeControl'].hasError('required'))">Customer code is required </div>
         <div [hidden]="!(CurrentCustomer.formGroup.controls['CustomerCodeControl'].hasError('pattern'))">Pattern not proper </div>
 
